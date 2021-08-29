@@ -10,5 +10,7 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="d_and_a_technologies_logo">D and A Technologies logo</string>
+    <string name="fade_in">fade in</string>
 
 </resources>

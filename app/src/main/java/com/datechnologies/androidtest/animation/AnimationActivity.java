@@ -39,14 +39,15 @@ public class AnimationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animation);
 
+        setTitle("Animation");
         ActionBar actionBar = getSupportActionBar();
 
         assert actionBar != null;
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);
 
-        // TODO: Make the UI look like it does in the mock-up. Allow for horizontal screen rotation.
-        // TODO: Add a ripple effect when the buttons are clicked
+        // Make the UI look like it does in the mock-up. Allow for horizontal screen rotation.
+        // Add a ripple effect when the buttons are clicked
 
         // TODO: When the fade button is clicked, you must animate the D & A Technologies logo.
         // TODO: It should fade from 100% alpha to 0% alpha, and then from 0% alpha to 100% alpha
